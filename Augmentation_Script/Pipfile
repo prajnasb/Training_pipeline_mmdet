@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+autopep8 = "*"
+pytest = "*"
+
+[packages]
+imgaug = "*"
+opencv-python = "*"
+pascal-voc-writer = "*"
+flask = "==0.12.1"
+numpy = "*"
+requests = {editable = true,git = "https://github.com/requests/requests.git"}
+
+[requires]
+python_version = "3.6"
